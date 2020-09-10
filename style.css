@@ -97,4 +97,5 @@ font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-self: flex-start;
     padding-bottom: 10em;
+    /* Voir comment faire top et bottom de manière naturelle */
 }
