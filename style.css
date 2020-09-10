@@ -1,7 +1,100 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
 body{
     color: violet;
     background-color: rgbo(23, 105, 105, 0.8);
 }
 p{
     color: burlywood;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+   
+}
+.header a{
+    color: white;
+    font-size: xx-large;
+    border: 1px none red;
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: crimson;
+    border-radius: 10%;
+}
+h1{
+    color: white;
+    font-size: 3em;
+    color: red;
+    padding-bottom: 0.5em;
+}
+h2{
+    font-size: x-large;
+}
+h3{
+    font-size: large;
+    color: grey;
+}
+h3 span{
+background-color: rgba(128,128,128,0.5);
+}
+.header img{
+    width: 25%;
+    margin: 5em 0 2em 0;
+    border: 2px solid gray;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.header p{
+    color: black;
+    padding: 2em;
+}
+.icones_reseaux_sociaux{
+    display: flex;
+    flex-direction: row;
+    padding: 6em;
+    width: 55%;
+    margin: auto;
+    justify-content: space-between;
+}
+.icones_reseaux_sociaux i{
+    font-size: 6em;
+    color: grey;
+}
+.poster{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 60%;
+ margin: auto;
+}
+
+.poster .section_poster{
+    display: flex;
+    align-items: center;
+    padding: 1em 0 1em 0;
+    justify-items: center;
+}
+.poster .section_poster p{
+    color: maroon;
+    padding-top: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.poster .section_poster img{
+   border: 2px solid black;
+   margin-right: 2em;
+}
+.poster .section_poster .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.poster .section_poster .description h3{
+    display: flex;
+    justify-self: flex-start;
+    padding-bottom: 10em;
 }
